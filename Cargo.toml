@@ -1,0 +1,12 @@
+[workspace]
+resolver = "2"
+members = [
+  "day-*"
+]
+default-members = ["day-*"]
+
+[workspace.dependencies]
+divan = "0.1.7"
+
+[profile.release]
+debug = true
