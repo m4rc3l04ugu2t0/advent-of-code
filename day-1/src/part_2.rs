@@ -17,7 +17,7 @@ pub fn parse_input2(input: &str) -> i32 {
 
     left.iter()
         .map(|v| {
-            if right.contains(&v) {
+            if right.contains(v) {
                 let mutt = right.iter().fold(0, |acc, n| {
                     if n == v {
                         return acc + 1;

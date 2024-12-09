@@ -1,14 +1,17 @@
 [package]
-name = "day-1"
+name = "day-3"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+divan.workspace = true
+itertools = "0.13.0"
+regex = "1.9.5"
 
 [dev-dependencies]
-divan.workspace = true
+itertools.workspace = true
 
 [[bench]]
-name = "day-1-bench"
+name = "day-3-bench"
 path = "benches/benchmarks.rs"
 harness = false
