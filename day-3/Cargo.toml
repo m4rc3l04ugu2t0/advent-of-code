@@ -7,6 +7,7 @@ edition = "2021"
 divan.workspace = true
 itertools = "0.13.0"
 regex = "1.9.5"
+nom = "7.1.3"
 
 [dev-dependencies]
 itertools.workspace = true
